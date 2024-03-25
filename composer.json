@@ -1,18 +1,16 @@
 {
-    "name": "elnonito/php_lightweight_api",
+    "name": "nonaje/php_lightweight_api",
     "description": "A lightweight PHP API using Quill framework",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "App\\": "app"
+            "App\\": "app",
+            "Quill\\": "vendor/nonaje/quill/src"
         }
     },
     "authors": [
         {
             "name": "Agustin Ferrari"
         }
-    ],
-    "require": {
-        "elnonito/quill": ""
-    }
+    ]
 }

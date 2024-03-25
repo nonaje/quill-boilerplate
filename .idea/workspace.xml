@@ -5,33 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff78308b-f0d5-4643-97e7-8efb8b238d63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lightweight_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_lightweight_api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php_lightweight_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_lightweight_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Config/Config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Config/Parser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Enum/Asteroids.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Enum/HttpMethod.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Patterns/Singleton.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Request/Request.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Response/Response.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Router/MiddlewareValidator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Router/Route.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Router/RouteStore.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Router/RouteTargetExecutor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Router/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Router/RouterDispatcher.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Http/Controllers/HealthcheckController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HealthcheckController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Http/Middlewares/ExampleMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middlewares/ExampleMiddleware.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +36,7 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/elnonito/quill" />
+      <path value="$PROJECT_DIR$/vendor/nonaje/quill" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -71,8 +50,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/home/aferrari/work/php_lightweight_api/vendor/elnonito/quill",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/aferrari/work/Quill/App",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,19 +67,19 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Robo tasks" show_stripe_button="false" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17890625" />
-      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19817708" />
+      <window_info id="Commit" order="1" weight="0.19817708" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33028847" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.45240384" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33028847" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.33028847" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.33028847" />
       <window_info anchor="right" id="make" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
@@ -139,12 +118,24 @@
       <option name="presentableId" value="Default" />
       <updated>1711377847871</updated>
       <workItem from="1711377848882" duration="24000" />
-      <workItem from="1711377893472" duration="3413000" />
+      <workItem from="1711377893472" duration="3821000" />
+      <workItem from="1711383317838" duration="3004000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

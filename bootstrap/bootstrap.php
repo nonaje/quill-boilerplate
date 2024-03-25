@@ -22,7 +22,7 @@ try {
             executor: new Quill\Router\RouteTargetExecutor
         ),
         middleware: new Quill\Router\MiddlewareValidator
-    )->load(__DIR__ . '/../src/routes/api.php')->dispatch();
+    )->load(__DIR__ . '/../routes/api.php')->dispatch();
 
 } catch (Throwable $e) {
     dd('Error during application bootstrap: ', $e);
