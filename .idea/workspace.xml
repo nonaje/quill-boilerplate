@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78308b-f0d5-4643-97e7-8efb8b238d63" name="Changes" comment="">
+    <list default="true" id="ff78308b-f0d5-4643-97e7-8efb8b238d63" name="Changes" comment="update composer.json">
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php_lightweight_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_lightweight_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HealthcheckController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HealthcheckController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middlewares/ExampleMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middlewares/ExampleMiddleware.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/global_functions.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/phpstorm-http-client.http" beforeDir="false" afterPath="$PROJECT_DIR$/docs/phpstorm-http-client.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,19 +37,30 @@
   </component>
   <component name="GitLabMergeRequestsSettings">{}</component>
   <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/vendor/nonaje/quill/composer.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/docs/phpstorm-http-client.http" environment="dev" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nonaje/quill" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
-      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/elnonito/quill" />
-      <path value="$PROJECT_DIR$/vendor/nonaje/quill" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
     </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -47,19 +70,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/aferrari/work/Quill/App",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;HTTP Request.phpstorm-http-client | POST request with a header.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Agustin/Downloads/PEST_PHP-1.12.0.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
@@ -67,8 +97,8 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Robo tasks" show_stripe_button="false" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19817708" />
-      <window_info id="Commit" order="1" weight="0.19817708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19973958" />
+      <window_info id="Commit" order="1" weight="0.21953125" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
@@ -76,9 +106,9 @@
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.33028847" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33028847" />
-      <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33028847" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.4591346" />
+      <window_info anchor="bottom" id="Services" order="4" weight="0.3985577" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.33028847" />
       <window_info anchor="right" id="make" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
@@ -96,10 +126,22 @@
       <recent name="$PROJECT_DIR$/src/Quill" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/vendor/elnonito/quill/src" />
-      <recent name="$PROJECT_DIR$/vendor/elnonito/quill" />
+      <recent name="\\wsl$\Ubuntu-22.04\home\aferrari\work\Quill\App\vendor\nonaje\quill\tests\Feature" />
+      <recent name="\\wsl$\Ubuntu-22.04\home\aferrari\work\Quill\App\vendor\nonaje" />
+      <recent name="\\wsl$\Ubuntu-22.04\home\aferrari\work\Quill\App\vendor\nonaje\quill\src\Contracts" />
+      <recent name="\\wsl$\Ubuntu-22.04\home\aferrari\work\Quill\App\vendor\nonaje\quill\src" />
+      <recent name="\\wsl$\Ubuntu-22.04\home\aferrari\work\Quill\App\vendor\nonaje\quill\src\Support\Dot" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpstorm-http-client | POST request with a header" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/docs/phpstorm-http-client.http" index="3" requestIdentifier="POST request with a header" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.phpstorm-http-client | POST request with a header" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -119,8 +161,27 @@
       <updated>1711377847871</updated>
       <workItem from="1711377848882" duration="24000" />
       <workItem from="1711377893472" duration="3821000" />
-      <workItem from="1711383317838" duration="3004000" />
+      <workItem from="1711383317838" duration="11693000" />
+      <workItem from="1711409326141" duration="4524000" />
+      <workItem from="1711459296341" duration="1640000" />
+      <workItem from="1711579215502" duration="12590000" />
+      <workItem from="1711593104130" duration="83000" />
+      <workItem from="1711733715245" duration="889000" />
+      <workItem from="1711751461056" duration="7376000" />
+      <workItem from="1711761904217" duration="6145000" />
+      <workItem from="1711769175451" duration="6366000" />
+      <workItem from="1711814731050" duration="191000" />
+      <workItem from="1711814939295" duration="3018000" />
     </task>
+    <task id="LOCAL-00001" summary="update composer.json">
+      <option name="closed" value="true" />
+      <created>1711386550494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711386550494</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +197,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update composer.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="update composer.json" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

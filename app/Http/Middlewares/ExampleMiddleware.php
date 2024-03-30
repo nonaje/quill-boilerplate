@@ -9,5 +9,6 @@ final class ExampleMiddleware
 {
     public function __invoke(Request $request, Response $response): void
     {
+
     }
 }

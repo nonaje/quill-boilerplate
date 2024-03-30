@@ -1,20 +1,29 @@
 <?php
 
-use Quill\Config\Config;
-use Quill\Request\Request;
-use Quill\Response\Response;
-use Quill\Router\Router;
 use App\Http\Controllers\HealthcheckController;
+use Quill\Router\Router;
 
-$router = Router::make();
+/** @var Router $this */
+$this->get('/', [HealthcheckController::class])
+    ->middleware(['example']);
 
-$router->get('/', function (Request $request, Response $response) {
-    $response->send([
-        'success' => true,
-        'appName' => Config::make()->get('app.name'),
-    ]);
-});
+$this->get('/a', [HealthcheckController::class])
+    ->middleware(['example']);
 
-$router
-    ->get('/healthcheck', [HealthcheckController::class])
+$this->get('/b', [HealthcheckController::class])
+    ->middleware(['example']);
+
+$this->get('/c', [HealthcheckController::class])
+    ->middleware(['example']);
+
+$this->get('/d', [HealthcheckController::class])
+    ->middleware(['example']);
+
+$this->get('/e', [HealthcheckController::class])
+    ->middleware(['example']);
+
+$this->get('/f', [HealthcheckController::class])
+    ->middleware(['example']);
+
+$this->get('/g', [HealthcheckController::class])
     ->middleware(['example']);
