@@ -17,7 +17,7 @@ To install it without a local PHP/Composer installation, you will need to have
 [Docker](https://www.docker.com/get-started/) installed.
 
 Replace {APP_NAME} by your preference.
-> **RUN** `git clone git@github.com:nonaje/Quill-Boilerplate.git {APP_NAME}`
+> **RUN** `git clone git@github.com:nonaje/quill-boilerplate.git {APP_NAME}`
 
 > **RUN** `cd {APP_NAME}`
 

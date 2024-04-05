@@ -8,7 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78308b-f0d5-4643-97e7-8efb8b238d63" name="Changes" comment="Update README.md" />
+    <list default="true" id="ff78308b-f0d5-4643-97e7-8efb8b238d63" name="Changes" comment="Update composer.json">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,14 +93,14 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Robo tasks" show_stripe_button="false" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19453125" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.26223958" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26223958" />
+      <window_info id="Commit" order="1" weight="0.26223958" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.5629808" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33028847" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.33028847" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.33028847" />
@@ -172,7 +174,7 @@
       <workItem from="1711912712052" duration="9696000" />
       <workItem from="1711934476594" duration="828000" />
       <workItem from="1712265903441" duration="1502000" />
-      <workItem from="1712267424839" duration="7182000" />
+      <workItem from="1712267424839" duration="7484000" />
     </task>
     <task id="LOCAL-00001" summary="update composer.json">
       <option name="closed" value="true" />
@@ -206,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712283055561</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update composer.json">
+      <option name="closed" value="true" />
+      <created>1712283874928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712283874928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +238,8 @@
     <MESSAGE value="removes unused routes" />
     <MESSAGE value="composer.lock" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Update composer.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update composer.json" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
