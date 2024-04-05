@@ -6,7 +6,7 @@
 
 # Quill Framework Boilerplate
 
-Please check the [Quill Framework documentation](https://www.docker.com/get-started/)
+Please check the [Quill Framework documentation](https://github.com/nonaje/quill)
 to know more about the features it offers and how to use it.
 
 ## Installation
