@@ -42,8 +42,7 @@ Replace {APP_NAME} by your preference.
 ### /public
 Inside this folder is the entry point for your application (`/public/index.php`).
 
-You can indicate where your application's routes are, your new configuration files,
-define the global middlewares that you want your application to use and more
+You can indicate where your application's routes are, your new configuration files, define the global middlewares you want your application to use, and more
 (detailed in the [Quill Framework documentation](https://github.com/nonaje/quill)).
 
 ### /app
