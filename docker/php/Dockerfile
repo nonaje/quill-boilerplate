@@ -1,4 +1,4 @@
-FROM php:8.3-fpm-alpine
+FROM php:8.3.4-fpm-alpine
 
 # Essentials
 RUN echo "UTC" > /etc/timezone

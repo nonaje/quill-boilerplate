@@ -4,15 +4,17 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
+use Quill\Config\Config;
+use Quill\Contracts\Response\ResponseInterface;
 use Quill\Controller\Controller;
 
-class HealthcheckController extends Controller
+final class HealthcheckController extends Controller
 {
-    public function __invoke(): void
+    public function __invoke(): ResponseInterface
     {
-        $this->response->send([
+        return $this->response->json([
             'appName' => config('app.name'),
-            'request_execution_time' => microtime(true) - APP_START
+            'totalExecutionTime' => microtime(true) - QUILL_START
         ]);
     }
 }
