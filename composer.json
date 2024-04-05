@@ -1,7 +1,7 @@
 {
   "type": "project",
-  "name": "nonaje/php_lightweight_api",
-  "description": "A lightweight PHP API using Quill framework",
+  "name": "nonaje/quill-boilerplate",
+  "description": "A lightweight PHP API using Quill Framework",
   "authors": [
     {
       "name": "Agustin Ferrari"
