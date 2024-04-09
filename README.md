@@ -24,6 +24,8 @@ Replace {APP_NAME} by your preference.
 
 > **RUN** `cd {APP_NAME}`
 
+> **RUN** `cp .env.example .env`
+
 > **RUN** `docker-compose up -d --build`
 
 > **RUN** `docker-compose exec php bash`
@@ -34,6 +36,8 @@ To Install it with a local PHP/Composer installation.
 
 Replace {APP_NAME} by your preference.
 > **RUN** `composer create-project nonaje/quill {APP_NAME}`
+
+> **RUN** `cp .env.example .env`
 
 > **RUN** `composer dev`
 
